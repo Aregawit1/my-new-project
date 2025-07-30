@@ -1,4 +1,4 @@
-Fraud Detection Project
+project title - Fraud Detection Project
 
 Final project for the Building AI course
 
