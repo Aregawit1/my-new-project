@@ -1,57 +1,28 @@
-#Fraud Detection Project
+# Fraud Detection AI System
 
-Final project for the Building AI course
+Final project for the Building AI course  
 
- Summary
+## Summary  
+This project detects fraudulent transactions using machine learning. It analyzes transaction patterns and flags suspicious activities in real-time.
 
-This project focuses on detecting fraudulent transactions using AI and machine learning. By analyzing transaction data, we aim to identify suspicious activities and reduce financial losses caused by fraud.  
-Building AI course project
+## Background  
+Fraudulent transactions have become a significant problem in online banking and e-commerce.  
+* Problem 1: Growing number of online fraud cases.  
+* Problem 2: Lack of real-time detection systems.  
+* Motivation: To build an AI-based tool that prevents fraud losses.  
 
- Background
-
-Fraudulent transactions are a major concern in banking and online payments. Billions are lost globally each year.  
-This project is important because:  
-* It improves financial security for businesses and customers.  
-* Fraud detection helps banks prevent losses.  
-* Personally, I find fraud detection interesting because it combines AI, security, and real-world impact.
-
- How is it used?
-
-Fraud detection systems are used by:
-* Banks and financial institutions.
-* E-commerce platforms.
-* Payment gateways.
-
-The system flags suspicious transactions for further investigation. It can run in real-time, analyzing each transaction and alerting security teams.
+## How is it used?  
+The system integrates into payment gateways or banking platforms. When a transaction is flagged as suspicious, it alerts the user and blocks the payment.
 ![image of a fraud detection](/photo_2025-07-30_07-27-31.jpg)
+## Data sources and AI methods  
+We use anonymized financial transaction datasets and apply supervised ML methods such as Logistic Regression, Random Forest, and Neural Networks.  
 
-Data sources and AI methods
+## Challenges  
+Avoiding false positives while still catching real fraud cases.  
+Ensuring data privacy and ethical AI use.  
 
-The project uses publicly available datasets (e.g., [Kaggle Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)) and applies machine learning models such as:
-* Logistic Regression
-* Random Forest
-* Neural Networks
+## What next?  
+Expand the system with deep learning models and deploy it in a real-time environment.
 
-AI methods:  
-- Supervised Learning  
-- Feature engineering  
-- Model evaluation using metrics like precision, recall, and F1-score  
-
-Challenges
-
-* Imbalanced datasets: Fraudulent transactions are rare compared to normal ones.  
-* Risk of false positives: Incorrectly flagging legitimate transactions inconveniences customers.  
-* Ethical considerations: Ensuring user privacy and secure handling of financial data.
-
-What next?
-
-Future improvements could include:  
-* Adding deep learning models for better accuracy.  
-* Real-time fraud detection integration with APIs.  
-* Using explainable AI (XAI) to make predictions transparent.
-
- Acknowledgments
-
-* Inspired by the Building AI course by Reaktor & University of Helsinki.  
-* Dataset: [Credit Card Fraud Detection - Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud)  
-* Example neural network ideas from open-source fraud detection projects.  
+## Acknowledgments  
+Inspired by fraud detection systems used in financial technology.
